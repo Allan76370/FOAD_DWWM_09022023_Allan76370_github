@@ -1,0 +1,370 @@
+@font-face {
+    font-family: "Lato";
+    src: url(../font/Lato-Regular.ttf);
+}
+
+* {
+    font-family: "Lato";
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#menuHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    background-color: black;
+    position: fixed;
+}
+
+#menuHeader ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    left: -100%;
+    position: absolute;
+    color: white;
+    background-color: black;
+    top: 20px;
+}
+
+#menuHeader li {
+    padding: 1rem;
+}
+
+#logo {
+    padding: 1rem;
+}
+
+#burger {
+    padding: 1rem;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+}
+
+#burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    display: none;
+}
+
+#box:checked~ul {
+    left: 0;
+}
+
+#box:not(:checked)~ul {
+    left: -100%;
+}
+
+#imgHeader {
+    background-image: url(../img/la.jpg);
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hide {
+    display: none;
+}
+
+#firstpart {
+    text-align: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#descBand {
+    text-align: left;
+}
+
+h1 {
+    letter-spacing: 0.5rem;
+}
+
+#texth1 {
+    font-style: italic;
+    color: gray;
+}
+
+.card {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.card div {
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.card img {
+    border-radius: 2%;
+}
+
+#secondpart {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#texth2 {
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+#troismois {
+    background-color: white;
+    color: gray;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+#troismois div {
+    border-bottom: gray 1px solid;
+    padding: 1rem;
+}
+
+.sold {
+    background-color: tomato;
+    color: white;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin-left: 2rem;
+}
+
+#nov {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+#numbernov {
+    background-color: black;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.card3mois {
+    background-color: white;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    color: black;
+    text-align: left;
+}
+
+.card3mois img {
+    width: 100%;
+}
+
+.tittleCard {
+    font-weight: 900;
+}
+
+.dateCard {
+    color: rgb(170, 170, 170);
+}
+
+.ticketsCard {
+    color: white;
+    background-color: black;
+    padding: .5rem;
+    width: fit-content;
+}
+
+.descallCard {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.descallCard div {
+    margin: 1rem;
+}
+
+/* PETIT PAUSE DE 10min ! 12h26 */
+/* REPRISE 13h32 ! */
+footer {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+footer p {
+    font-style: italic;
+    color: gray;
+}
+
+#contact {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+#contact div {
+    margin: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#Name {
+    padding: .5rem;
+}
+
+#Email {
+    padding: .5rem;
+}
+
+#Message {
+    padding: .5rem;
+    margin-top: .5rem;
+}
+
+#SEND {
+    color: white;
+    background-color: black;
+    padding: .5rem;
+    margin-top: .5rem;
+    margin-right: 1rem;
+}
+
+#formulaire {
+    text-align: right;
+}
+
+#map img {
+    height: 40vh;
+    text-align: center;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+#lastpart {
+    text-align: center;
+}
+
+#icon {
+    color: gray;
+    letter-spacing: .5rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#finaltext {
+    color: gray;
+    margin-bottom: 6rem;
+}
+
+/* FINAL MOBILE 14h10 ! Repris le samedi 26/11 MALADE ! */
+/* REPRISE LE SAMEDI A 12h45  */
+
+@media screen and (min-width:576px) {
+    #burger {
+        display: none;
+    }
+
+    #menuHeader label {
+        display: none;
+    }
+
+    #menuHeader {
+        justify-content: left;
+    }
+
+    #logo {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    #menuHeader ul {
+        position: static;
+        flex-direction: row;
+        color: white;
+        padding: 0;
+    }
+
+    ul #hideli {
+        display: none;
+    }
+
+    #firstImg {
+        width: 100%;
+    }
+
+    .hide {
+        text-align: center;
+        color: white;
+        position: relative;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        top: 16rem;
+    }
+
+    #firstpart {
+        width: 100%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #cardfirstPart {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #secondpart {
+        width: 100%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    #cardsecondPart {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #thirdpart {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    #formulaire {
+        width: 100%;
+    }
+
+    #contact {
+        width: 100%;
+    }
+    #formulaire{
+        
+    }
+}
