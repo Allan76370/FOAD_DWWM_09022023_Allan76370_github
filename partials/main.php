@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maquette Band</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/styles.css">
-</head>
-<!-- Début à 11h -->
-
-<body>
-    <header>
-        <nav id="menuHeader">
-            <div id="logo">Home</div>
-            <label for="box">
-                <div id="burger">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-            </label>
-            <input type="checkbox" id="box">
-            <ul>
-                <li>BAND</li>
-                <li>TOUR</li>
-                <li>CONTACT</li>
-                <li>MORE
-                    <ul id="hideli">
-                        <li>Merchandise</li>
-                        <li>Extras</li>
-                        <li>Media</li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        
-        <div id="imgHeader">
-        <h2 class="hide">Los Angeles</h2>
-        <p class="hide">We had the best time playing at Venice Beach</p>
-        </div>
-    </header>
-    <main>
+<main>
         <section id="firstpart">
             <h1>THE BAND</h1>
             <p id="texth1">We love music</p>
@@ -103,37 +59,5 @@
                 </div>
             </div>
             </div>
-            <!-- PETIT PAUSE DE 10min ! 12h26 -->
-            <!-- REPRISE 13h32 ! -->
         </section>
     </main>
-    <footer>
-        <h2>CONTACT</h2>
-        <p>Fan? Drop a note!</p>
-        <div id="thirdpart">
-        <div id="contact">
-            <div> <span><i class="fa-solid fa-location-dot"></i></span> Chicago,US</div>
-            <div> <span><i class="fa-solid fa-phone"></i></span> Phone: +00 151515</div>
-            <div> <span><i class="fa-solid fa-envelope"></i></span> Email:mail@mail.com</div>
-        </div>
-        <div id="formulaire">
-            <form action="post">
-                <input type="text" id="Name" placeholder="Name">
-                <input type="mail" name="Mail" id="Email" placeholder="Email">
-                <input type="Message" id="Message" placeholder="Message">
-            </form>
-            <button id="SEND"> SEND </button>
-        </div></div>
-    </footer>
-    <div id="map">
-    <img src="./assets/img/map.jpg" alt=""></div>
-    <div id="lastpart">
-    <div id="icon"><i class="fa-brands fa-square-facebook"></i><i
-        class="fa-brands fa-square-instagram"></i><i class="fa-brands fa-square-snapchat"></i><i
-        class="fa-brands fa-pinterest-p"></i><i class="fa-brands fa-twitter"></i><i
-        class="fa-brands fa-linkedin"></i></div>
-    <div id="finaltext">Powered by w3.css</div>
-    </div>
-</body>
-<!-- FINAL MOBILE 14h10 ! Repris le samedi 26/11 MALADE -->
-</html>
