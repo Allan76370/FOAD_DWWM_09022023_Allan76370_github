@@ -25,3 +25,5 @@
         class="fa-brands fa-linkedin"></i></div>
     <div id="finaltext">Powered by w3.css</div>
     </div>
+    </body>
+</html>

@@ -9,5 +9,3 @@
     dd("Hello World");
     include './partials/footer.php';
     ?>
-</body>
-</html>
